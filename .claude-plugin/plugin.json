@@ -1,0 +1,21 @@
+{
+  "name": "sketchy-editorial",
+  "version": "1.0.0",
+  "description": "Generate minimalist hand-drawn editorial illustrations with a recurring ink character for articles, slides, and docs",
+  "author": {
+    "name": "Ayush",
+    "url": "https://github.com/ayush"
+  },
+  "license": "MIT",
+  "keywords": [
+    "illustrations",
+    "hand-drawn",
+    "editorial",
+    "sketches",
+    "articles",
+    "slides",
+    "visual-metaphor",
+    "image-generation",
+    "minimalist"
+  ]
+}
