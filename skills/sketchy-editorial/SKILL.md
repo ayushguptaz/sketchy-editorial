@@ -48,21 +48,37 @@ If the user asks to "analyze", "plan", or "think about what illustrations to mak
 
 Default 4-8 illustrations. Short articles: 1-3. Long articles: never exceed 9. Enough is enough — don't turn prose into a picture book.
 
-### 3. Single-Image Generation
+### 3. Elaborate the Metaphor (MANDATORY before generating)
+
+Before writing any prompt, run this 3-step elaboration for EACH image. This is what makes the prompts rich and specific:
+
+**Step A — Physical action:** Replace the abstract idea with a concrete physical action the character performs. Don't say "self-doubt exists" — say "the character is trying to walk forward but its own shadow grabs its ankle and pulls backward." Be specific about body position, limb action, direction of movement.
+
+**Step B — Low-tech object:** Replace any system/concept with a simple pen-drawable object. Don't say "mental pressure" — say "a stack of boxes piling on top of the character" or "a ruler getting shorter each time it measures itself." Pick from: boxes, circles, lines, arrows, funnels, drawers, pipes, wells, ladders, ropes, pulleys, scales, doors, squiggles, stacks, loops.
+
+**Step C — Scene choreography:** Describe the FULL scene in 4-6 sentences. Include: where the character is positioned, what its stick limbs are doing, what objects surround it, how arrows or lines show movement/flow, what's happening at each side of the image. Be cinematic in description, mundane in vocabulary.
+
+Write the Composition field with ALL of this detail. A good Composition is 4-8 sentences long, not 1-2.
+
+### 4. Single-Image Generation
 
 If the user explicitly says "generate", "create", "make the images", don't stop to ask for confirmation — use the built-in `image_gen` tool to generate each image individually. Never combine multiple illustrations into one image.
 
 Each image explains ONE core structure. Every prompt must include:
 
-- 16:9 horizontal editorial illustration
-- Pure white background
-- Black hand-drawn line art
-- Sparse red/orange/blue handwritten English annotations
-- Lots of white space
-- The ink character as the core action subject
-- Prohibit: PPT style, commercial illustration, childish/cute, complex architecture diagrams, type-label titles in the top-left corner
+- 16:9 horizontal flat 2D pen sketch on blank white paper
+- Pure white background, no texture
+- Black hand-drawn pen line art — wobbly, imperfect, like a ballpoint doodle
+- FLAT 2D ONLY: no 3D, no shading, no depth, no color fills, no lighting, no rendering
+- Sparse red/orange/blue used ONLY for short handwritten word labels — never as fills
+- Lots of white space (at least 35% blank)
+- The solid-black ink blob character as the core action subject
+- All objects drawn as simple outlines: boxes, circles, lines, arrows — no realistic objects
+- Prohibit: PPT style, commercial illustration, childish/cute, complex architecture, 3D rendering, digital art, colored illustration, material rendering (glass/metal/glow)
 
-Never replicate past examples. Examples only provide style density and character participation patterns. Every time, invent a new strange-but-valid metaphor from the current content.
+When describing compositions, use SKETCH VOCABULARY: box, circle, line, arrow, blob, squiggle, stick, outline. Avoid words that trigger realism: glass, metal, crystal, transparent, glow, spark, shine, stone, marble.
+
+Never replicate past examples. Every time, invent a new strange-but-valid metaphor using only simple pen-drawable shapes.
 
 ### 4. Check and Iterate
 
@@ -95,7 +111,12 @@ Preserve original generated files. Don't overwrite existing assets unless the us
 
 ## Output Format
 
-Pre-generation strategy output should be short and precise. Post-generation delivery should include:
+When delivering prompts (because image_gen is unavailable or user wants prompts only):
+
+- Output each prompt as a plain paragraph of text. NO blockquotes (no `>` prefix lines). NO code blocks. Just a plain paragraph under each image heading.
+- Keep it short: image title, one-line description of what it shows, then the prompt as a regular paragraph.
+
+When image_gen is available and generation succeeds:
 
 - How many images generated
 - Each image's purpose

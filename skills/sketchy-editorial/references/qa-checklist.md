@@ -3,22 +3,29 @@
 ## Must-Pass Criteria
 
 - Is 16:9 horizontal.
-- Background is clean white.
-- Ink character is present.
+- Looks like a flat 2D pen sketch on white paper — NOT digital art, NOT 3D, NOT colored illustration.
+- Background is pure clean white with zero texture.
+- Image is overwhelmingly black line art (90%+) with tiny color accents as handwritten words only.
+- No color fills, no shading, no depth, no lighting anywhere.
+- Ink blob character is present.
 - Character performs the core action, not just decoration.
 - Invents a new metaphor for the current content — no recycled compositions.
 - Image feels absurd, inventive, interesting.
 - Clean and airy — main subject doesn't exceed ~60% of canvas.
 - One image explains one core structure only.
 - English labels are sparse, short, readable.
-- Orange used only for main paths or arrows.
-- Red used only for key points, problems, warnings, or results.
-- Blue used only for supplementary notes, feedback, or system state.
+- Orange used only for main paths or arrows (thin pen lines).
+- Red used only for key points, problems, warnings, or results (handwritten words).
+- Blue used only for supplementary notes, feedback, or system state (handwritten words).
 
-## Failure Signals
+## Failure Signals (REJECT immediately)
 
-If any of these appear, regenerate or locally edit:
+If any of these appear, regenerate — do NOT try to locally edit:
 
+- Image looks 3D, rendered, shaded, or has any depth/lighting.
+- Large colored areas, color fills, or painted sections exist.
+- Objects look realistic (glass, metal, stone, translucent materials).
+- Image looks like digital art, vector illustration, or polished design.
 - Top-left has a type-label title like "Common Pitfalls / Workflow / System Architecture / Roadmap".
 - Character looks like a mascot, emoji, or cute cartoon.
 - Image looks like PPT, courseware, or a formal flowchart.

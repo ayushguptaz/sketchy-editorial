@@ -8,12 +8,13 @@ By default, every image must include this character. It is NOT a mascot, NOT a s
 
 ## Appearance
 
-- Solid black small creature.
-- White circular dot eyes.
-- Thin legs, occasionally thin arms.
-- Body can be: cylinder, black bean, black box, funnel, shadow, hole opening, black block inside a machine.
-- Slightly irregular outline with hand-drawn feel.
-- Expression: blank, vacant, calm, serious.
+- A small blob shape filled in with solid black ink — like someone scribbled and filled a shape with a pen.
+- Two small white circular dot eyes.
+- Thin stick legs, occasionally thin stick arms.
+- Body is a simple irregular blob — NOT a polished character design. Think: quick pen scribble filled in black.
+- Body can take functional shapes when needed: stretched into a tube, squished into a box outline, merged into a funnel shape — always flat 2D pen-drawn.
+- Slightly irregular outline with hand-drawn wobble.
+- Expression: blank, vacant, calm, serious. Just two white dots for eyes, nothing else.
 
 ## Personality
 
